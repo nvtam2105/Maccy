@@ -1,11 +1,11 @@
 repo_name: nvtam2105/Maccy
-report_id: 9e511801ec97e75f30a0d28c73bea308
+report_id: 3dba291a62432417e6e0aa1bb5556f80
 repo_type: Public
-timestamp: '2023-11-15T04:32:46+00:00'
+timestamp: '2023-12-14T10:21:12+00:00'
 requested_by: p0deje
 provider: github
 branch: master
-detected_tools_count: 2
+detected_tools_count: 4
 tools:
 - name: Swift
   description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
@@ -17,6 +17,17 @@ tools:
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
   detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: Designs/Copies.txt
+  last_updated_by: Alex Rodionov
+  last_updated_on: 2020-06-02 11:38:02.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -26,3 +37,14 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: Designs/Copies.txt
+  last_updated_by: Alex Rodionov
+  last_updated_on: 2020-06-02 11:38:02.000000000 Z
